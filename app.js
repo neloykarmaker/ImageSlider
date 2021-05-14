@@ -7,5 +7,5 @@ setInterval(function(){
     }
 }, 5000);
 
-var audio = new Audio('Happy birthday song 1.mp3');
-audio.play();
+// var audio = new Audio('Happy birthday song 1.mp3');
+// audio.play();
