@@ -5,7 +5,7 @@ setInterval(function(){
     if(counter > 10){
         counter = 1;
     }
-}, 5000);
+}, 1000);
 
 // var audio = new Audio('Happy birthday song 1.mp3');
 // audio.play();
