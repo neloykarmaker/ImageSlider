@@ -5,7 +5,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: crimson;
+    background: #5560df;
 }
 
 .slider {
@@ -105,6 +105,18 @@ body{
 #radio6:checked ~ .first{
     margin-left: -100%;
 }
+#radio7:checked ~ .first{
+    margin-left: -120%;
+}
+#radio8:checked ~ .first{
+    margin-left: -140%;
+}
+#radio9:checked ~ .first{
+    margin-left: -160%;
+}
+#radio10:checked ~ .first{
+    margin-left: -180%;
+}
 
 /* css for automatic navigation */
 
@@ -157,5 +169,17 @@ body{
 }
 
 #radio6:checked ~ .navigation-auto .auto-btn6{
+    background: cyan;
+}
+#radio7:checked ~ .navigation-auto .auto-btn7{
+    background: cyan;
+}
+#radio8:checked ~ .navigation-auto .auto-btn8{
+    background: cyan;
+}
+#radio9:checked ~ .navigation-auto .auto-btn9{
+    background: cyan;
+}
+#radio10:checked ~ .navigation-auto .auto-btn10{
     background: cyan;
 }
